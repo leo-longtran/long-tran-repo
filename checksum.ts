@@ -6,7 +6,9 @@ export function checksum(a: any, b: any): { status: string; message: string } {
     };
   }
 
-  console.log("a", a);
+  if (a === "Long") {
+    console.log("a", a);
+  }
 
   const sum = a + b;
 
