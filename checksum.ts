@@ -6,6 +6,10 @@ export function checksum(a: any, b: any): { status: string; message: string } {
     };
   }
 
+  if (a === 10) {
+    console.log("a", a);
+  }
+
   const sum = a + b;
 
   if (sum === 0) {

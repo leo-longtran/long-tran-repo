@@ -18,4 +18,10 @@ describe("Test CheckSum", () => {
     expect(result.status).toBe("Warning");
     expect(result.message).toBe("Negative Sum");
   });
+
+  it("Test a = 10", () => {
+    const result = checksum(10, 0);
+    expect(result.status).toBe("Ok");
+    expect(result.message).toBe("Positive Sum");
+  });
 });
