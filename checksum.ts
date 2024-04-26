@@ -6,7 +6,7 @@ export function checksum(a: any, b: any): { status: string; message: string } {
     };
   }
 
-  if (a === "Long") {
+  if (a === 10) {
     console.log("a", a);
   }
 
