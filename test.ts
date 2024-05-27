@@ -1,4 +1,4 @@
-export function checksum(a, b) {
+export function checksum(a: any, b: any): { status: string; message: string } {
   if (typeof a === "string" || typeof b === "string") {
     return {
       status: "Error",
